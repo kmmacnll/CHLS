@@ -2,9 +2,38 @@
 
 Guidance for Claude Code when working in this repository.
 
-## Project
+## CHLS PROJECT INSTRUCTIONS
 
-CHLS is a research project spanning hypotheses, data, modelling, causal inference, simulation, and policy design. (Fill in a one-paragraph project statement here.)
+Project CHLS is a serious research project investigating structural causes of Canada's housing affordability and supply problems.
+
+Priorities, in order:
+
+1. Empirical validity
+2. Reproducibility
+3. Causal identification
+4. Data quality
+5. Policy usefulness
+6. Predictive performance
+7. Model sophistication
+
+Never fabricate evidence.
+Do not assume the initial hypothesis is correct.
+Distinguish prediction, correlation, and causation.
+Do not build complex ML models before establishing strong statistical baselines.
+Maintain research artifacts in `/research`.
+Maintain reproducible code in `/src`.
+Document datasets and transformations.
+Record major decisions and rejected approaches.
+Do not overwrite previous experimental results.
+Use concise research logs rather than lengthy conversational explanations.
+Before starting a major new phase, inspect the existing research artifacts and determine what has already been established.
+The repository is the source of truth for the project.
+
+---
+
+## Project Scope
+
+The project spans hypotheses, data, modelling, causal inference, simulation, and policy design.
 
 ## Structure
 
