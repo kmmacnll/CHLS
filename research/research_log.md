@@ -2,7 +2,7 @@
 
 Concise chronological log. Newest entries at the bottom. Status line kept current.
 
-**STATUS:** Phases 1-2 complete (`research/hypotheses.md`, `research/literature.md`, `research/datasets.md`). Phase 3 (research selection) — independent ranking and adversarial review in progress.
+**STATUS:** Phases 1-3 complete. **STOPPED at the Phase 3 gate: `research/research_decision.md` awaits owner approval.** Phase 4 not started. Phase 4 needs network access to Statistics Canada and CMHC.
 
 | Date | Phase | Entry |
 |------|-------|-------|
@@ -14,3 +14,5 @@ Concise chronological log. Newest entries at the bottom. Status line kept curren
 | 2026-11-14 | 2 | Four cluster audits complete (`agent_findings/P2_*.md`). Phase 2 artifacts written: `research/literature.md`, `research/datasets.md`. Key corrections: monthly building permits are CMA-level only; Ontario FIR holds DC revenue not rates; IRCC CMA study-permit data archived; Ontario rent-control RD infeasible (no occupancy-date or unit-rent data). |
 | 2026-11-14 | 3 | Neutral candidate brief written (`synthesis/P3_candidates.md`, C1-C6). Launched two top-model reviewers: independent blind ranking and adversarial review of the provisional lead (C1). |
 | 2026-11-15 | 3 | Usage limit interrupted both reviewers before output; resumed after reset. |
+| 2026-11-15 | 3 | Independent ranking: C1 = C2 top (29/40); recommends rental-rebate dose design behind a gate. Adversarial review of provisional C1: adopt with changes (condo is displaced tenure; Ontario dose ~2-4%; contaminated controls; cannot price DC cuts). |
+| 2026-11-15 | 3 | Lead synthesis (`synthesis/P3_synthesis.md`) and decision (`research_decision.md`): merged viability question; provisional C1 framing withdrawn (DEC-006 to DEC-009). Work stops here pending owner approval. |

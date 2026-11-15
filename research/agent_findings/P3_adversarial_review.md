@@ -1,9 +1,9 @@
 # P3 — Adversarial review of provisional choice C1 (tax-wedge elasticity, rental GST/HST rebate)
 
-Date: 2026-11-15. 22 web searches, snippets only; no primary full text read. Tags: [V] = seen in a search result this session; [unverified] = memory or not confirmed; "arith." = my arithmetic on [V] inputs. P3_independent_ranking.md not read.
+Date: 2026-11-15. 22 web searches, snippets only; no primary text read. Tags: [V] = seen in a search result this session; [unverified] = memory or not confirmed; "arith." = my arithmetic on [V] inputs. P3_independent_ranking.md not read.
 
 ## 0. Verdict
-**ADOPT WITH CHANGES.** No design-based evaluation exists and the data are open, but the design as framed cannot answer its own headline question ("net new supply or tenure shift"), and the claim that it yields the parameter governing $8.8B of DC cuts is not supportable. Reframe, demote, and pre-register (§4–5).
+**ADOPT WITH CHANGES.** No design-based evaluation exists and the data are open, but the design as framed cannot answer its own headline question ("net new supply or tenure shift"), and the claim that it yields the parameter governing $8.8B of DC cuts is unsupportable. Reframe, demote, pre-register (§4–5).
 
 ## 1. Fact check: is there usable cross-province variation?
 
@@ -21,7 +21,7 @@ Date: 2026-11-15. 22 web searches, snippets only; no primary full text read. Tag
 - Federal increment is itself heterogeneous: old 36% rebate phased out between $350k and $450k unit value [V] → increment 3.2 pts (cheap units) to 5 pts (arith.).
 - Anticipation: 2015 Liberal pledge, abandoned; NDP call ~Mar 2023 [V]; no leak found before 14 Sep. **Matching intent was public within a day** (NAIOP, 15 Sep 2023, names ON, BC, NL) [V]. Information date ≈ 14 Sep everywhere; no staggered timing except NB.
 - Shares by group: provincial rental-start counts **not retrieved** (gap). Qualitative [V]: TD (Jan 2026) starts at/above long-run average everywhere **except Ontario**; Quebec's purpose-built rental share of starts ~20% (2012) → ~90% (2025); Montréal >80% rental in 2025; record 2025 rental starts in Calgary, Edmonton, Montréal, Ottawa, Halifax. The rental boom is at least as strong in non-matching provinces.
-- Unresolved: KPMG (Apr 2026) snippet says Ontario is "eliminating its HST rebate for new homes and new residential rental properties in 2027" [unverified, ambiguous]. Must be read before design freeze.
+- Unresolved: a KPMG (Apr 2026) snippet says Ontario is "eliminating its HST rebate for new homes and new residential rental properties in 2027" [unverified, ambiguous]. Read before design freeze.
 
 ## 2. Objections
 
@@ -32,8 +32,8 @@ Date: 2026-11-15. 22 web searches, snippets only; no primary full text read. Tag
 | O3 | **Effectively one treated unit.** Treatment varies by province: ON (most treated CMAs), NS, NL; NB late; PEI capped | Serious | 10 provinces choose 3 = 120 assignments (arith.): randomization inference is valid but weak, and cannot remove Ontario-only shocks | Present as comparative case studies: synthetic control per treated province with placebo distribution; Conley–Taber-type intervals; leave-one-province-out |
 | O4 | **Dose mis-stated and small where the data are.** Ontario increment ≈2–4% of value for $400–600k units; the 10-pt doses sit in two small CMAs; Quebec's untouched ~10-pt wedge coexists with a rental boom | Serious | §1 arith.; TD/CMHC on Quebec [V] | Build per-unit dose by province × value band; dose-response ordering test; power simulation on 2015–22 data before touching post-period outcomes |
 | O5 | **Start-date mismatch.** CRA: construction begins at **excavation** (Notice 336) [V]; CMHC start = concrete poured for the full footings (CMHC 2017 wording) [V]. CMHC starts in late 2023–24 include ineligible pre-14-Sep excavations; eligible ones appear months later [gap length unverified] | Manageable–serious | Skyrise/UTPro (Jan 2025): Toronto rental share of starts tripled the quarter after announcement, back to pre-break level by end-2024 [V] — pattern fits retiming/relabelling, not a level shift. Eligibility uncertain: stalled-and-restarted projects (CBA–CRA roundtable 2025 Q9), CRA auditing and denying claims [V] | Quarterly event time; donut for Sep 2023–mid 2024; treat first year as transition; no bunching claims on CMHC dates |
-| O6 | **Benefit arrives years after the start.** Under self-supply the tax falls due at substantial completion/first occupancy on fair market value [unverified this session]; rebate window runs to 2030 starts, so no deadline disciplines timing | Manageable | Reasoning | Interpret as effect of expected after-tax return; do not compare timing to DC payment at permit |
-| O7 | **Endogenous tenure label.** Intended market is recorded at start; rebate and financing reward the rental label; "rental" may include student, seniors and non-market units [unverified] | Manageable | Urbanation conversions [V] | All-apartment starts as an outcome; rental share as mechanism only |
+| O6 | **Benefit arrives years after the start.** Under self-supply the tax falls due at substantial completion/first occupancy on fair market value [unverified]; the window runs to 2030 starts, so no deadline disciplines timing | Manageable | Reasoning | Interpret as effect of expected after-tax return; no timing comparison with DCs paid at permit |
+| O7 | **Endogenous tenure label.** Intended market is recorded at start; rebate and financing reward the rental label; "rental" may include student, seniors, non-market units [unverified] | Manageable | Urbanation conversions [V] | All-apartment starts as an outcome; rental share as mechanism only |
 | O8 | **Federal effect unidentified; transport to DCs unjustified.** Tenure×time absorbs the 5-pt federal part, so "did the GST rebate add supply" is not answered. DCs differ in payer, timing (permit, or occupancy after Bill 17), tenure, permanence and benefit side (they fund servicing). Incidence: a null cannot separate "inelastic" from "capitalised into land" without land prices, which are not open | Serious for claimed value | P2_development_charges §4–5; logic | Drop the "$8.8B parameter" claim. Estimand: effect of provincial HST matching on rental and total multi-unit starts |
 | O9 | Ottawa–Gatineau is one lumpy pair whose sign flips yearly | Manageable | Gatineau starts +33% (2024), −38% (Jan–Oct 2025), +66% (Jan–Apr 2026); Ottawa record 2025, −12% early 2026 [V] | Illustrative only |
 | O10 | Data not yet confirmed at the needed grain | Manageable | SCSS monthly to census tract by intended market per `cmhc` package author [V]; history to 2015 and the Ontario/Quebec split of Ottawa–Gatineau not confirmed | Phase 4 gate: pull and audit before methodology is fixed |
@@ -45,8 +45,8 @@ Date: 2026-11-15. 22 web searches, snippets only; no primary full text read. Tag
 | Ontario rental DC discount 15/20/25% from 28 Nov 2022 [V]; Toronto rental DC discounts 40–60% and rental incentive stream (2026 staff reports) [V]; federal–Ontario DC programme from 30 Mar 2026 | **Serious.** Ontario- and rental-specific, starts 10 months pre-treatment |
 | Ontario HST relief on new ownership homes, agreements 1 Apr 2026–31 Mar 2027 [V] | Treats the control tenure in the treated province. **End the post-window at Mar 2026** |
 | Student cap / NPR cuts, hardest in ON, BC, NS (P2_demand_rental) | **Serious.** Rental-demand shock concentrated in treated provinces during the post-period; biases toward zero |
-| Ontario post-2018 rent-control exemption | Manageable; time-invariant rule but its value moves with expected rents |
-| NS HST cut (Apr 2025), rent cap [unverified]; BC PTT exemptions, BC Builds; QC lease/rent-setting changes [unverified]; MB credit | Manageable by exclusion (BC, MB) and dose recoding (NS) |
+| Ontario post-2018 rent-control exemption | Manageable; fixed rule, value moves with expected rents |
+| NS HST cut (Apr 2025); BC PTT exemptions, BC Builds; QC rent-rule changes [unverified]; MB credit | Manageable: exclude BC, MB; recode NS dose |
 | Alberta: no PST, migration-driven rental record | Manageable; report with and without |
 
 ### Has it been done?
@@ -56,7 +56,7 @@ Three searches: no causal evaluation found. Only PBO costing, descriptive work (
 - On the project's order (validity > reproducibility > identification), C1's weakness is identification of its headline claim, not data.
 - **C2 viability arm** (rate shock × pre-shock presale exposure) has ~35 CMA clusters and continuous exposure, versus three treated provinces, and models the shock (O2) that C1 must control. It is the stronger backbone.
 - C4 has sharper dates and more clusters but a narrow estimand; C3 has the best internal validity but one city; C5, C6 remain worse.
-- **Reformulation:** one CMA×quarter multi-unit starts panel, 2015–Mar 2026. Primary: viability/financing exposure (C2 arm). Pre-registered secondary: provincial HST-matching contrast, labelled a few-cluster comparative case study. Question: "What moved multi-unit starts in 2022–26 — financing viability or the tax wedge — and did provincial tax relief add units or relabel them?"
+- **Reformulation:** one CMA×quarter multi-unit starts panel, 2015–Mar 2026. Primary: viability/financing exposure (C2 arm). Pre-registered secondary: provincial HST-matching contrast, labelled a few-cluster case study. Question: "What moved multi-unit starts in 2022–26 — financing viability or the tax wedge — and did provincial tax relief add units or relabel them?"
 
 ## 4. Required changes
 1. Replace "wedge elasticity" with the estimand actually identified (provincial matching increment); remove the DC/HST transport claim.
@@ -90,7 +90,7 @@ Three searches: no causal evaluation found. Only PBO costing, descriptive work (
   - Transport of a rental-tax response to development charges is unjustified (med-high; reasoning).
 - Supporting evidence: §1–2.
 - Sources: canada.ca CRA PBRH rebate page, RC4231, Notice 336; gnb.ca hst-rebate-rental-housing; bdo.ca gst-relief-announced-for-new-residential-rental-properties; revenuquebec.ca rental rebate pages; cbc.ca 1.7014884 (Ontario); constructioncanada.net, atlantic.ctvnews.ca (PEI); gov.bc.ca purpose-built-rental-exemption; mltaikins.com (Manitoba credit); newswire.ca NAIOP 15 Sep 2023; ctvnews.ca 1.6561315; thor.ca ?p=6944; cba.org CRA–CBA roundtable 2025 Q9; mondaq 1714388; cmhc-schl.gc.ca survey methodology page and Housing Information Monthly Apr 2017; doodles.mountainmath.ca 2022-06-12; economics.td.com ca-regional-divide-in-homebuilding; storeys.com condo-rental-pivot-momentum-gta; toronto.skyrisecities.com 2025/01; osler.com ontarios-new-hst-rebate-key-details and Bill 23 update; assets.kpmg.com 2026/04; ctvnews.ca, obj.ca (Ottawa, Gatineau); toronto.ca backgroundfile-288661.
-- Uncertainty: snippet-level only; provincial rental-start counts, MLI/ACLP take-up by province, CMA counts, NS/NL announcement dates, excavation-to-footing lag, self-supply timing and Ontario's 2027 change are unverified.
+- Uncertainty: snippet-level only; unverified: provincial rental-start counts, MLI/ACLP take-up by province, CMA counts, excavation-to-footing lag, self-supply timing, Ontario's 2027 change.
 - Assumptions: Ontario's prior $24,000 rebate applied to typical rental units without a value phase-out; CMHC's 2017 start definition still holds.
 - Contradictions found: brief's "8–10 point provincial increment" vs Ontario's ~2–4%; "BC partial PST relief" vs BC property-transfer-tax measures; "wedge is binding" vs Quebec's rental boom without QST relief; Toronto's post-announcement rental spike faded within a year.
 - Recommended next investigations: (1) pull CMHC starts by intended market, CMA×month, 2015–2026; tabulate rental starts by province group; (2) read CRA Notice 336, provincial regulations, Ontario 2026 budget text; (3) request MLI Select/ACLP units by province; (4) power simulation on pre-2023 data; (5) confirm CMHC start definition and excavation-to-footing lag.

@@ -59,6 +59,10 @@ Lead-agent merge of 60 specialist hypotheses (`research/agent_findings/P1_*.md`)
 
 Class counts: A 2 (H03 shared with B) · B 9 · B-C 1 (H32) · C 11 · D 19 · E 3. Evidence in Canada is thinnest exactly where recent policy is most active (upzoning, DC cuts, HAF, rental subsidies, student cap).
 
+## Updates after Phases 2-3
+
+Audit corrections and re-ranking are recorded in `research/synthesis/P3_synthesis.md` (section "Hypothesis updates"). Selected direction: H34, H35, H40, H41 combined as H\* in `research/research_decision.md` (status: `proposed`, awaiting owner approval). Records below are the Phase 1 originals and are not overwritten.
+
 ## Records
 
 Fields: **M** mechanism · **E** predicted effect · **U** unit of analysis · **V** required variables · **D** potential datasets · **L** existing literature (key estimate) · **I** likely identification · **Src** specialist records.
