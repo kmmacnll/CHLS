@@ -1,6 +1,6 @@
 # Research decision — Phase 3
 
-Lead agent, 2026-11-15. **Status: proposed; awaiting owner approval. No Phase 4 work has started.**
+Lead agent, 2026-11-15. **Status: approved by owner 2026-11-16 (DEC-010). Phase 4 opens with the gate in section 5.**
 
 Basis: `hypotheses.md` (45 hypotheses), `literature.md`, `datasets.md`, four Phase 2 audits, an independent blind ranking and an adversarial review (`agent_findings/P3_*.md`). Reasoning and reviewer disagreement: `synthesis/P3_synthesis.md`.
 

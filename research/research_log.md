@@ -2,7 +2,7 @@
 
 Concise chronological log. Newest entries at the bottom. Status line kept current.
 
-**STATUS:** Phases 1-3 complete. **STOPPED at the Phase 3 gate: `research/research_decision.md` awaits owner approval.** Phase 4 not started. Phase 4 needs network access to Statistics Canada and CMHC.
+**STATUS:** Phases 1-3 complete; research question approved by owner 2026-11-16. Phase 4 (empirical system) — in progress, at the pre-outcome gate (data audit → dose table → power simulation → freeze `methodology.md`).
 
 | Date | Phase | Entry |
 |------|-------|-------|
@@ -16,3 +16,4 @@ Concise chronological log. Newest entries at the bottom. Status line kept curren
 | 2026-11-15 | 3 | Usage limit interrupted both reviewers before output; resumed after reset. |
 | 2026-11-15 | 3 | Independent ranking: C1 = C2 top (29/40); recommends rental-rebate dose design behind a gate. Adversarial review of provisional C1: adopt with changes (condo is displaced tenure; Ontario dose ~2-4%; contaminated controls; cannot price DC cuts). |
 | 2026-11-15 | 3 | Lead synthesis (`synthesis/P3_synthesis.md`) and decision (`research_decision.md`): merged viability question; provisional C1 framing withdrawn (DEC-006 to DEC-009). Work stops here pending owner approval. |
+| 2026-11-16 | 4 | Owner approved research question; network environment "CHLS" created. Verified reachable: StatCan WDS, CMHC HMIP export endpoint, Bank of Canada Valet. www.canada.ca drops automated connections server-side (not a proxy block). StatCan 34-10-0154-01 confirmed: 36 CMAs, monthly, 1972-01 to 2026-09, by dwelling type, no tenure split. |
